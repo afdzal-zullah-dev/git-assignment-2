@@ -40,15 +40,23 @@ a RESTful API using **Laravel**, including **token-based authentication using La
    Authorization: Bearer {token}
 
 
-## Assignment 2 – Part E (Authentication)
+## Assignment 2 – Part E (Auth)
 
-### Features Implemented
-- Laravel Sanctum Authentication
-- Login API
-- Get Authenticated User (/auth/me)
-- Logout API
+### Setup Sanctum
+- Installed Sanctum
+- Published config & migrations
+- Ran migration
+
+### Endpoints Tested (Bruno)
+- POST /auth/register (201)
+- POST /auth/login (200) -> returns token
+- GET /auth/me (200) with Bearer token
+- POST /auth/logout (200)
 
 ### Screenshots
-![Login Success](screenshots/22. Part E2-Login-Success-200.png)
-![Get Profile](screenshots/23. Part E2-Get-Me-200.png)
-![Logout Success](screenshots/24. Part E2-Logout-200.png)
+- ![E1 Branch](screenshots/19.%20Part%20E1-feature-authz-spatie.png)
+- ![E2 Sanctum install](screenshots/20.%20Part%20E2-01-sanctum-install-migrate.png)
+- ![E2 Migrate](screenshots/21.%20Part%20E2-02-sanctum-install-migrate.png)
+- ![Login OK](screenshots/22.%20Part%20E2-Log%20In%20Sucess-Bruno-200%20OK.png)
+- ![Auth Me OK](screenshots/23.%20Part%20E2-Get-Auth-Me-200%20OK.png)
+- ![Logout OK](screenshots/24.%20Part%20E2-Log%20Out%20Berjaya-200%20OK.png)
