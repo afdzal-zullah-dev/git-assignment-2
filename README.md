@@ -38,3 +38,17 @@ a RESTful API using **Laravel**, including **token-based authentication using La
 4. Token is used in request header:
    ```http
    Authorization: Bearer {token}
+
+
+## Assignment 2 – Part E (Authentication)
+
+### Features Implemented
+- Laravel Sanctum Authentication
+- Login API
+- Get Authenticated User (/auth/me)
+- Logout API
+
+### Screenshots
+![Login Success](screenshots/22. Part E2-Login-Success-200.png)
+![Get Profile](screenshots/23. Part E2-Get-Me-200.png)
+![Logout Success](screenshots/24. Part E2-Logout-200.png)
